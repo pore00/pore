@@ -111,6 +111,11 @@ h4 {
     margin: 20px 20px 15px;
     font-size: 1.1em;
 }
+
+h4.new {
+    color: #af7c3f;
+}
+
 h4::before {
     content: '';
     display: inline-block;
