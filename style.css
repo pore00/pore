@@ -1,0 +1,189 @@
+<style>
+@charset "UTF-8";
+
+/* ウェブフォントの読み込み */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+
+@font-face {
+    font-family: 'はんなり明朝';
+    font-display: swap;
+    src: url('https://cdn.leafscape.be/hannari/hannari_web.woff2') format("woff2");
+}
+
+/*-------------------------------------------------
+このフォントはIPAフォントライセンスv1.0の下で提供されています。
+http://ipafont.ipa.go.jp/ipa_font_license_v1.html
+-------------------------------------------------*/
+
+/* 全体に適用する */
+* {
+    padding: 5% 10%;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+/* root */
+:root {
+    --color: #bcb8fc;
+    --color2: #cebbfc;
+    --gray: #a0a0a0;
+    --white: #c2a2b7;
+    --black: #4d494b;
+    --font: 'はんなり明朝', 'Noto Serif JP', serif;
+}
+
+/* リンク */
+a,
+a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid var(--black);
+    color: var(--black);
+}
+
+/* 基本設定 */
+body {
+    background-color: var(--white);
+    text-align: left;
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 13px;
+    color: var(--black);
+}
+
+/* コンテナサイズ */
+header,
+section,
+article,
+footer {
+    margin: 3em auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* 見出し */
+header h1 {
+    margin: 3em auto 0;
+}
+
+/* フォントの指定 */
+header h1 span,
+article h2 {
+    font-family: var(--font);
+}
+
+/* フェードイン */
+header h1 span:nth-of-type(1) {
+    animation: fadeIn 1s;
+}
+
+header h1 span:nth-of-type(2) {
+    animation: fadeIn 2s;
+}
+
+header h1 span:nth-of-type(3) {
+    animation: fadeIn 3s;
+}
+
+header h1 span:nth-of-type(4) {
+    animation: fadeIn 4s;
+}
+
+/* アイコン */
+.icon {
+    display: inline-block;
+    margin: 1.5em 1em 1em;
+    width: 15px;
+    height: 15px;
+    background: url('https://erla.jp/storage/official/iUKYXglIGHJQON0hSWCOuv531hkniODVN6jKbk0U.png') center/cover;
+    transform: rotate(45deg);
+}
+
+/* アイコンフェードイン */
+header .one {
+    animation: fadeIn 1s;
+}
+
+header .two {
+    animation: fadeIn 2s;
+}
+
+header .three {
+    animation: fadeIn 3s;
+}
+
+/* ヘッダー段落フェードイン */
+header p {
+    animation: fadeIn .5s;
+    color: var(--gray);
+}
+
+/* リスト系 */
+section ol {
+    margin: 2em auto 1.5em 0.5em;
+    list-style-type: decimal-leading-zero;
+}
+
+section ol li {
+    margin: 1em auto;
+    list-style-position: inside;
+}
+
+section ol li:nth-of-type(odd) a {
+    border-bottom: 3px solid var(--color);
+}
+
+section ol li:nth-of-type(even) a {
+    border-bottom: 3px solid var(--color2);
+}
+
+/* フッター  */
+footer p {
+    color: var(--gray);
+}
+
+/* 段落 */
+p {
+    margin: 1em auto 1.5em;
+}
+
+/* メニュー */
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    margin: 0 1em;
+}
+
+/* 中央寄せ */
+.center {
+    text-align: center;
+}
+
+/* フォーム系 */
+
+input[type=text],
+button[type=submit] {
+    height: 30px;
+    padding: 0 0.5em;
+    border: thin solid var(--color);
+    color: var(--color);
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+</style>
