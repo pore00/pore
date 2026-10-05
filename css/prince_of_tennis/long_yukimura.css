@@ -136,6 +136,16 @@ a {
   border: 1px solid #ddd;
 }
 
+.dream-background {
+  background-color: #555;
+}
+
+.dream-text {
+  margin: 10% 10%;
+  font-size: 1.4rem;
+  color: aliceblue;
+  font-family: "はんなり明朝", serif;
+}
 
 /* ===== 名前変換画面レイアウト ===== */
 .wrapper2 {
