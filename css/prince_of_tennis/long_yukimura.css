@@ -141,7 +141,7 @@ a {
 }
 
 .dream-text {
-  margin: 10% 10%;
+  margin: 15% 10%;
   font-size: 1.4rem;
   color: aliceblue;
   font-family: "はんなり明朝", serif;
@@ -234,3 +234,6 @@ a {
   }
 }
 
+.sideNav::before {
+    content: none;
+}
