@@ -1,10 +1,246 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>My Website</title>
-</head>
-<body>
-    <h1>こんにちは、新しいWebサイトへようこそ！</h1>
-</body>
-</html>
+<!-- ナビゲーション -->
+<nav id="navs" class="navs">
+
+<!-- 「MENU」ボタン（スマホのみ表示） -->
+<div class="navTrigger" id="navTrigger"></div>
+
+<div class="navWrap">
+
+<!-- メインナビ（ページ外リンク） -->
+<ul class="mainNav">
+<li><a href="URL">index</a></li>
+<li><a href="URL">contents</a></li>
+<li><a href="URL">xxx</a></li>
+</ul>
+
+<!-- サイドナビ（ページ内リンク） -->
+<ul id="sideNav" class="sideNav">
+<li><a href="#link_attention">attention</a></li>
+<li><a href="#link_cat1">category1</a></li>
+<li><a href="#link_cat2">category2</a></li>
+<li><a href="#link_cat3">category3</a></li>
+</ul>
+
+</div><!-- /navWrap -->
+
+</nav><!-- /navs -->
+
+
+<!-- メイン -->
+<div id="allWrap" class="allWrap">
+
+<!-- メインコンテンツ -->
+<main id="contentsWrap" class="contentsWrap h2-count">
+
+<section id="link_attention" class="box">
+<h2 class="h2-plain"><span>00</span>attention</h2>
+<p>これこれこういう話ばかりです。</p>
+<h3><span>name change</span></h3>
+
+<!-- 名前変換フォーム（ダミー） -->
+<form class="form nameChange space">
+<input type="text" placeholder="名字" class="enter">
+<input type="text" placeholder="名前" class="enter">
+<input type="button" value="input" class="button">
+</form>
+
+</section>
+
+<section class="box" id="link_cat1">
+<h2>category1</h2>
+<h3><span>long</span></h3>
+<!-- 長編リスト -->
+<ul class="longList space">
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+</ul>
+
+<h3><span>short</span></h3>
+<h4>group1</h4>
+
+<!-- 短編リスト -->
+<ul class="shortList space">
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+</ul>
+
+<h4>group2</h4>
+<ul class="shortList space">
+<li><a href="">タイトル</a><span>注意</span></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+</ul>
+</section>
+
+<section id="link_cat2">
+<h2>category2</h2>
+<h3><span>long</span></h3>
+
+<ul class="longList space">
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+</ul>
+
+<h3><span>short</span></h3>
+<ul class="shortList space">
+<li><a href="">タイトル</a><span>注意</span></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+</ul>
+</section>
+
+<section id="link_cat3">
+<h2>category3</h2>
+<h3><span>long</span></h3>
+<ul class="longList space">
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+<li>
+    <img src="小説バナーURL" alt="image">
+    <a href="">タイトル</a>
+    <div class="longInfo">あらすじあらすじあらすじあらすじあらすじあらすじ</div>
+</li>
+</ul>
+
+<h3><span>short</span></h3>
+<ul class="shortList space">
+<li><a href="">タイトル</a><span>注意</span></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+<li><a href="">タイトル</a></li>
+</ul>
+</section>
+
+</main><!-- /contentsWrap h2-count -->
+</div><!-- /allWrap -->
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(function(){
+    
+
+//サイドナビのリンク表示位置
+$('#sideNav a[href^="#link_"]').each(function(){
+
+    var target = $($(this).attr('href'));
+    var offset = target.offset().top;
+    var wrapHeight = $('#allWrap').outerHeight();
+
+    //桁の調整
+    var point = offset / wrapHeight * 100;
+    var point = Math.floor(point);
+    var point = point / 100;
+
+    $(this).addClass('js_active').css('top', 'calc(90vh *' + point + ')');
+})
+
+
+//サイドナビの色変更
+$(window).on('scroll', function(){
+    $('[id^="link_"]').each(function(){
+        
+        var scroll = $(window).scrollTop();
+            
+        var id = $(this).attr('id');
+        var target = $('#sideNav li a[href="#' + id + '"]');
+        
+        var adjust = $(window).height() * 0.2;
+        
+        var offset = $(this).offset().top;
+        var boxTop = offset - adjust;
+        var boxBottom = offset + $(this).outerHeight() - adjust;
+        
+        if (boxTop <= scroll && scroll <= boxBottom) {
+            $(target).addClass('active');
+        } else {
+            $(target).removeClass('active');
+        }
+    })
+})
+
+
+
+//画面内スクロール
+var navs = $('.navs');
+$('a[href^="#link_"]').on('click', function(){
+
+    var href = $(this).attr('href');
+    var scrollTo = $(href).offset().top - 40;
+        
+    navs.removeClass('view');
+    $('html, body').animate({scrollTop : scrollTo}, 900)
+    return false;
+})
+
+
+//ナビゲーション開閉
+$('#navTrigger').on('click', function(){
+    navs.toggleClass('view');
+})
+$('.navWrap').on('click', function(){
+    if(navs.hasClass('view')) {
+        navs.removeClass('view')
+    }
+})
+})
+</script>
